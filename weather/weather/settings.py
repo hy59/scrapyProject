@@ -17,6 +17,7 @@ NEWSPIDER_MODULE = 'weather.spiders'
 #### user add
 ITEM_PIPELINES = {
 'weather.pipelines.WeatherPipeline':1,
+'weather.pipelines2json.WeatherPipeline':2,
 }
 
 
