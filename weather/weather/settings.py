@@ -18,6 +18,7 @@ NEWSPIDER_MODULE = 'weather.spiders'
 ITEM_PIPELINES = {
 'weather.pipelines.WeatherPipeline':1,
 'weather.pipelines2json.WeatherPipeline':2,
+'weather.pipelines2mysql.WeatherPipeline':3
 }
 
 
